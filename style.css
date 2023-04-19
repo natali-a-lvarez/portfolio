@@ -70,9 +70,13 @@ header {
   z-index: 10;
 }
 
-.logo {
+.logo-container {
   height: 6rem;
   width: 6rem;
+}
+
+.logo {
+  width: 100%;
 }
 
 .nav {
@@ -149,13 +153,20 @@ header {
   text-align: center;
 }
 
-.hero-text {
+.hero-text-content {
   width: 35%;
+}
+
+.hero-text {
   text-align: end;
 }
 
-.hero-img {
+.hero-img-container {
   width: 35%;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .main-title {
