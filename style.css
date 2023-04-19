@@ -13,22 +13,25 @@ html {
   scroll-behavior: smooth;
 }
 
-:root {
+.body {
   --ff: "B612 Mono", monospace;
   --accent-ff: "Yeseva One", cursive;
 
-  --accent-color-light: #e9a89a;
+  /* --accent-color-light: #e9a89a; */
+  --accent-color-light: #dd8673;
   --accent-color-dark: #d45033;
   --dark: #1a1a1a;
   --dark-transparent: rgb(37, 37, 37, 0.85);
-  --light-transparent: rgb(217, 209, 197, 0.85);
   --light: #eae1d4;
 
   font-family: var(--ff);
+  background-color: var(--dark);
 }
 
-body {
-  background-color: var(--dark);
+.body.light {
+  --dark: #eae1d4;
+  --light: #3b3b3b;
+  --dark-transparent: rgb(217, 209, 197, 0.85);
 }
 
 a {
@@ -97,7 +100,7 @@ header {
 
 .hello-btn {
   background-color: var(--accent-color-light);
-  color: var(--dark);
+  color: #1a1a1a;
   padding: 1rem 2rem;
   border-radius: 100rem;
 }
@@ -149,6 +152,10 @@ header {
   color: var(--accent-color-light);
 }
 
+.second-title .body.light {
+  color: #d45033;
+}
+
 /* SCROLL */
 .scroll {
   display: flex;
@@ -166,7 +173,7 @@ header {
   width: 3px;
   padding: 10px 15px;
   height: 35px;
-  border: 2px solid var(--accent-color-light);
+  border: 2px solid var(--accent-color-dark);
   border-radius: 25px;
   opacity: 0.75;
   box-sizing: content-box;
@@ -175,7 +182,7 @@ header {
   width: 3px;
   height: 10px;
   border-radius: 25%;
-  background-color: var(--accent-color-light);
+  background-color: var(--accent-color-dark);
   animation-name: scroll;
   animation-duration: 2.2s;
   animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
@@ -198,8 +205,8 @@ header {
 /* WORK */
 .work {
   color: var(--light);
-  padding: 8rem 20rem;
-  padding-top: 5rem;
+  padding: 8rem 15rem;
+  padding-top: 10rem;
 }
 
 .work-cards {
@@ -229,7 +236,7 @@ header {
 }
 
 .work-card > .card-content {
-  color: var(--dark);
+  color: #1a1a1a;
   position: absolute;
   inset: 0;
   font-size: 2rem;
@@ -255,7 +262,7 @@ header {
 }
 
 .work-card > .card-content > .card-header .git-link {
-  color: var(--dark);
+  color: #1e1e1e;
 }
 
 .work-card > .card-content > .card-header .git-link:hover {
@@ -338,7 +345,7 @@ header {
 }
 
 .modal-icon {
-  color: var(--dark);
+  color: #1e1e1e;
 }
 
 .modal-heading {
