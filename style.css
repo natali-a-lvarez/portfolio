@@ -71,12 +71,12 @@ header {
 }
 
 .logo {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 .nav {
-  padding: 0 6rem;
+  padding: 0.5rem 6rem;
   background-color: var(--dark-transparent);
   color: var(--light);
   font-size: 2rem;
