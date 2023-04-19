@@ -29,9 +29,9 @@ html {
 }
 
 .body.light {
-  --dark: #eae1d4;
+  --dark: #ecebeb;
   --light: #3b3b3b;
-  --dark-transparent: rgb(217, 209, 197, 0.85);
+  --dark-transparent: rgba(220, 220, 220, 0.85);
 }
 
 a {
@@ -70,8 +70,13 @@ header {
   z-index: 10;
 }
 
+.logo {
+  height: 7rem;
+  width: 7rem;
+}
+
 .nav {
-  padding: 2rem 4rem;
+  padding: 0 6rem;
   background-color: var(--dark-transparent);
   color: var(--light);
   font-size: 2rem;
@@ -133,13 +138,24 @@ header {
 
 /* HERO */
 .hero {
+  padding: 2rem 6rem;
   color: var(--light);
   font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  gap: 1rem;
+  height: 75vh;
   text-align: center;
+}
+
+.hero-text {
+  width: 35%;
+  text-align: end;
+}
+
+.hero-img {
+  width: 35%;
 }
 
 .main-title {
@@ -219,6 +235,7 @@ header {
 .work-card {
   max-width: 60rem;
   border-radius: 1rem;
+  box-shadow: 0 0.3rem 1.4rem rgba(0, 0, 0, 0.12);
 
   justify-self: center;
 
@@ -316,6 +333,7 @@ header {
   padding: 2rem 5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--dark-transparent);
 }
 
@@ -492,7 +510,7 @@ textarea:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   pointer-events: none;
 }
 
