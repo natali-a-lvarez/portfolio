@@ -63,6 +63,10 @@ a {
   transition: 0.2s;
 }
 
+.transition {
+  transition: 0.6s;
+}
+
 /* NAVIGATION  */
 header {
   position: sticky;
@@ -73,6 +77,11 @@ header {
 .logo-container {
   height: 6rem;
   width: 6rem;
+}
+
+.logo-container:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
 }
 
 .logo {
@@ -118,7 +127,8 @@ header {
 .hello-btn:active,
 .hello-btn:visited {
   transition: 0.2s;
-  transform: scale(1.04);
+  transform: scale(1.02);
+  font-size: 2.2rem;
 }
 
 .nav button {
@@ -137,7 +147,7 @@ header {
 
 .nav button:hover {
   transition: 0.2s;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 /* HERO */
