@@ -1,0 +1,202 @@
+@media all and (min-width: 600px) {
+  /* GENERAL */
+  .heading {
+    font-size: 3.2rem;
+  }
+
+  /* HERO */
+  .hero {
+    font-size: 1.8rem;
+  }
+
+  .hero-text-content {
+    width: 70%;
+  }
+
+  .hero-img-container {
+    width: 45%;
+  }
+
+  .main-title {
+    color: #d45033;
+    font-size: 4.2rem;
+  }
+
+  .second-title {
+    font-size: 3.2rem;
+    color: var(--accent-color-light);
+  }
+
+  /* WORK */
+  .work {
+    padding: 8rem 12rem;
+  }
+
+  .work-card > .card-content > .card-header {
+    font-size: 1.8rem;
+  }
+
+  .work-card > .card-content > .card-text {
+    font-size: 1.4rem;
+  }
+
+  /* RESUME TEXT */
+  .resume-text > p {
+    font-size: 1.4rem;
+  }
+
+  .word-bold {
+    color: var(--accent-color-dark);
+    font-size: 2.8rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 2rem 5rem;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  /* GENERAL */
+  .heading {
+    font-size: 3.8rem;
+  }
+
+  /* NAV */
+  .logo-container {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .nav {
+    padding: 0.5rem 6rem;
+    font-size: 2rem;
+  }
+
+  .nav-list {
+    gap: 2.8rem;
+  }
+
+  .nav ion-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 2rem 6rem;
+    font-size: 2rem;
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
+
+  .hero-text-content {
+    width: 35%;
+  }
+
+  .hero-text {
+    text-align: end;
+  }
+
+  .hero-img-container {
+    width: 35%;
+  }
+
+  /* WORK */
+  .work {
+    color: var(--light);
+    padding: 8rem 15rem;
+  }
+
+  .work-cards {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+  }
+
+  .work-card {
+    max-width: 60rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1.4rem rgba(0, 0, 0, 0.12);
+
+    justify-self: center;
+
+    position: relative;
+    overflow: hidden;
+  }
+
+  .work-card > .card-content {
+    padding-left: 2rem;
+    width: 60%;
+  }
+
+  .work-card > .card-content > .card-header {
+    font-size: 2.5rem;
+  }
+
+  .work-card > .card-content > .card-text {
+    font-size: 1.6rem;
+  }
+
+  /* RESUME TEXT */
+  .resume-text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    color: inherit;
+  }
+
+  .resume-text > p {
+    font-size: 1.8rem;
+  }
+
+  .word-bold {
+    color: var(--accent-color-dark);
+    font-size: 3.8rem;
+  }
+
+  .word-bold:hover {
+    text-decoration: underline;
+  }
+
+  /* MODAL */
+  .modal {
+    width: 100rem;
+    max-width: 80%;
+    border-radius: 2rem;
+    flex-direction: row;
+  }
+
+  .modal-heading {
+    font-size: 2.6rem;
+  }
+
+  .modal-text {
+    font-size: 1.8rem;
+  }
+
+  .modal-sub-text {
+    font-size: 1.2rem;
+  }
+
+  .modal-section-about {
+    padding: 10rem 6rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 50%;
+  }
+
+  .modal-section-form {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 10rem 8rem;
+    width: 50%;
+  }
+}
