@@ -195,6 +195,8 @@
     max-width: 80%;
     border-radius: 2rem;
     flex-direction: row;
+    top: 50%;
+    left: 50%;
   }
 
   .modal-heading {
@@ -221,5 +223,17 @@
     border-bottom-right-radius: 2rem;
     padding: 10rem 8rem;
     width: 50%;
+  }
+
+  .about-form {
+    gap: 2rem;
+  }
+
+  .label {
+    font-size: 1.6rem;
+  }
+
+  .form-submit {
+    font-size: 1.8rem;
   }
 }
