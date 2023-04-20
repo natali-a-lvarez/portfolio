@@ -242,6 +242,10 @@
     font-size: 1.6rem;
   }
 
+  textarea {
+    font-size: 1.4rem;
+  }
+
   .form-submit {
     font-size: 1.8rem;
   }
