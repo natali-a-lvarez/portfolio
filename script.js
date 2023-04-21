@@ -3,6 +3,7 @@
 const openModalButton = document.querySelector(".hello-btn");
 const closeModalButton = document.querySelector(".modal-close-btn");
 const overlay = document.getElementById("overlay");
+const form = document.querySelector("form");
 
 openModalButton.addEventListener("click", () => {
   const modal = document.querySelector(".modal");

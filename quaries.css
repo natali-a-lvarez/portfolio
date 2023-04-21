@@ -62,6 +62,12 @@
     font-size: 1.2rem;
   }
 
+  /* MODAL */
+
+  .modal button:hover {
+    background-color: #bd6d5b;
+  }
+
   .modal-icon {
     font-size: 3.2rem;
   }
