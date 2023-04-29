@@ -415,24 +415,13 @@ header {
   left: 2.5rem;
 }
 
-.modal-close-icon {
+.modal-close-btn {
   font-size: 2.4rem;
   color: var(--accent-color-light);
-  border: solid 1px transparent;
-}
-
-.modal-close-btn {
   position: absolute;
   background-color: transparent;
   top: 1.5rem;
   right: 1.5rem;
-}
-
-.modal-close-icon:hover {
-  cursor: pointer;
-  transition: 0.3s;
-  border: solid 1px var(--accent-color-light);
-  border-radius: 0.5rem;
 }
 
 .about-form {

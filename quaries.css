@@ -64,12 +64,19 @@
 
   /* MODAL */
 
-  .modal button:hover {
-    background-color: #bd6d5b;
-  }
-
   .modal-icon {
     font-size: 3.2rem;
+  }
+
+  .modal-close-icon {
+    border: solid 1px transparent;
+  }
+
+  .modal-close-icon:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid 1px var(--accent-color-light);
+    border-radius: 0.5rem;
   }
 }
 
