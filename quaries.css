@@ -32,6 +32,15 @@
     padding: 8rem 12rem;
   }
 
+  .work a {
+    text-decoration: underline;
+  }
+
+  .work a:hover {
+    transition: 0.2s;
+    font-size: 2rem;
+  }
+
   .work-card > .card-content > .card-header {
     font-size: 1.8rem;
   }
@@ -154,6 +163,11 @@
   .work {
     color: var(--light);
     padding: 8rem 15rem;
+  }
+
+  .work a:hover {
+    transition: 0.2s;
+    font-size: 3rem;
   }
 
   .work-cards {

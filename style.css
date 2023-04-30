@@ -283,6 +283,14 @@ header {
   color: #1e1e1e;
 }
 
+.dark-card > .card-content {
+  color: #eae1d4;
+}
+
+.dark-card > .card-content > .card-header .git-link {
+  color: #eae1d4;
+}
+
 .work-card > .card-content > .card-header .git-link:hover {
   transition: 0.2s;
   transform: scale(1.08);
