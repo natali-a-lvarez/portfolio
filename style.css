@@ -223,7 +223,7 @@ header {
 /* WORK */
 .work {
   color: var(--light);
-  padding: 8rem 5rem;
+  padding: 6rem 5rem;
   padding-bottom: 3rem;
   padding-top: 10rem;
 }
@@ -318,7 +318,8 @@ header {
 
 /* RESUME TEXT */
 .resume-text {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 10rem;
   display: flex;
   justify-content: flex-end;
   color: inherit;
@@ -331,9 +332,6 @@ header {
 .word-bold {
   color: var(--accent-color-dark);
   font-size: 2.4rem;
-}
-
-.word-bold:active {
   text-decoration: underline;
 }
 
