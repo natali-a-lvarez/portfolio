@@ -32,13 +32,9 @@
     padding: 6rem 12rem;
   }
 
-  .work a {
-    text-decoration: underline;
-  }
-
   .work a:hover {
     transition: 0.2s;
-    font-size: 3rem;
+    text-decoration: none;
   }
 
   .work-card > .card-content > .card-header {
@@ -166,11 +162,6 @@
   .work {
     color: var(--light);
     padding: 6rem 15rem;
-  }
-
-  .work a:hover {
-    transition: 0.2s;
-    font-size: 3rem;
   }
 
   .work-cards {

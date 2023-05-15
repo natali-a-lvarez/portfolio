@@ -228,6 +228,10 @@ header {
   padding-top: 10rem;
 }
 
+.work a {
+  text-decoration: underline;
+}
+
 .work-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
