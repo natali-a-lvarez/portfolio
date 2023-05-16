@@ -321,15 +321,16 @@ header {
 }
 
 /* RESUME TEXT */
+
 .resume-text {
   margin-bottom: 2rem;
   padding: 0 10rem;
   display: flex;
   justify-content: flex-end;
-  color: inherit;
 }
 
 .resume-text > p {
+  color: var(--light);
   font-size: 1.2rem;
 }
 
